@@ -59,4 +59,5 @@ class Song
     song.artist_name = filename.split(/[^a-zA-z\s]|\s-\s/)[0]
     song.save
     song
+  end
 end
